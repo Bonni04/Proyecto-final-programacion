@@ -1,0 +1,46 @@
+AA 748  ABQ  257P  ATL 1047P  S     1    S80            F  Y  M  Q  B
+TW 410  ABQ  628A  DCA  132P  #     1    M80            F  Y  B  Q  M
+DL 660  ABQ  125P  DCA  845P  LD    1    757            F  Y  B  M  Q
+UA 785  ABQ  645A  DEN  757A  S     0    733            F  Y  B  M  Q
+YV  11  ABQ  715A  DEN  920A        1    BE1            Y  Q  L  H  M
+YV 221  ABQ  820A  DEN 1010A        1    BE1            Y  Q  L  H  M
+UA 982  ABQ  829A  DEN  939A  S     0    72S            F  Y  B  M  Q
+CO1594  ABQ  830A  DEN  944A  S     0    73S            F  A  Y  Q  H
+UA 718  ABQ 1020A  DEN 1132A        0    72S            F  C  Y  B  M
+CO1708  ABQ 1026A  DEN 1139A        0    733            F  A  Y  Q  H
+YV 687  ABQ 1045A  DEN 1235P        1    BE1            Y  Q  L  H  M
+UA 470  ABQ  114P  DEN  224P        0    72S            F  Y  B  M  Q
+CO1660  ABQ  210P  DEN  322P        0    733            A  Y  Q  H  K
+YV 237  ABQ  300P  DEN  455P        1    BE1            Y  Q  L  H  M
+UA 671  ABQ  325P  DEN  437P        0    733            F  Y  B  M  Q
+UA 716  ABQ  449P  DEN  604P        0    733            F  Y  B  M  Q
+YV 607  ABQ  500P  DEN  650P        1    BE1            Y  Q  L  H  M
+CO1184  ABQ  525P  DEN  639P  #     0    73S            A  Y  Q  H  K
+AA 202  ABQ  450A  DFW  721A        0    72S           FN YN  B  M  H
+DL1042  ABQ  630A  DFW  901A  #     0    72S           FN YN BN MN QN
+AA 880  ABQ  915A  DFW 1151A  V     0    72S            F  Y  B  M  H
+DL 768  ABQ  945A  DFW 1223P  S     0    M80            F  Y  B  M  Q
+AA1050  ABQ 1053A  DFW  134P  L     0    72S            F  Y  B  M  H
+CO 829  ABQ 1120A  DFW  358P  L     1    73S            A  Y  Q  H  K
+DL 660  ABQ  125P  DFW  403P  L     0    757            F  Y  B  M  Q
+AA1480  ABQ  140P  DFW  418P        0    S80            F  Y  B  M  H
+YV  84  ABQ  200P  DFW  637P        2    BE1            Y  Q  L  H  M
+AA 592  ABQ  409P  DFW  701P  D     0    S80            F  Y  B  M  H
+DL1048  ABQ  455P  DFW  730P  D     0    72S            F  Y  B  M  Q
+AA1044  ABQ  600P  DFW  832P  D     0    72S            F  Y  B  M  H
+DL1096  ABQ  825P  DFW 1054P        0    M80           FN YN BN MN QN
+WN 515  ABQ  610A  HOU  905A        0    733            Y  K  L  B  Q
+WN  29  ABQ 1005A  HOU  225P        2    733            Y  K  L  B  Q
+WN  31  ABQ 1050A  HOU  255P        1    73S            Y  K  L  B  Q
+WN 803  ABQ 1105A  HOU  330P        2    73S            Y  K  L  B  Q
+WN 539  ABQ  845P  HOU 1135P        0    73S            Y  K  L  B  Q
+WN 530  ABQ  700A  LAX  750A        0    73S            Y  K  L  B  Q
+WN 532  ABQ  950A  LAX 1045A        0    73S            Y  K  L  B  Q
+WN 343  ABQ 1125A  LAX 1225P        0    73S            Y  K  L  B  Q
+WN 994  ABQ  100P  LAX  250P        1    73S            Y  K  L  B  Q
+WN 430  ABQ  410P  LAX  505P        0    73S            Y  K  L  B  Q
+WN 931  ABQ  510P  LAX  700P        1    73S            Y  K  L  B  Q
+WN 362  ABQ  620P  LAX  715P        0    733            Y  K  L  B  Q
+WN 590  ABQ  730P  LAX  825P        0    733            Y  K  L  B  Q
+AA 880  ABQ  915A  MIA  439P  VL    1    72S            F  Y  M  Q  B
+UA 982  ABQ  829A  MSP  124P  SL    1    72S            F  Y  B  M  Q

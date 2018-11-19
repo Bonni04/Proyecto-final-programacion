@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reserva de vuelos </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+        <div class="formulario">
+            <h1>Reserva tu vuelo aqui</h1>
+            <td><img src="src=../../static/auxilio.png"></td>
+            <form action="{{url_for('reservarVuelos')}}
+                "method = "POST">
+                <br><input type="text" name="Aerolinea" placeholder="Ingrese la Aerolinea" >
+                <br><input type="text" name="Numero Vuelo" placeholder="Ingrese el numero del  vuelo" >
+                <br><input type="text" name="Ciudad 1" placeholder="Ingrese la ciudad de salida"  >
+                <br><input type="text" name="Ciudad 2" placeholder="Ingrese la ciudad de llegada" >
+                <br><input type="text" name="Usuario" placeholder="Ingrese su Usuario" >
+                <br><input type="password" name="Contrasena" placeholder="Ingrese su Contraseña" >
+
+                <br><input type="email" name="Correo" placeholder="Ingrese su Correo" >
+                <br><input type="text" name="Telefono"placeholder ="Ingrese su Telefono" >
+                <input type="submit" value="Confirmar Reserva">
+                <input type="submit" name="boton" value="Volver al menu">
+            </form>
+        </div>
+
+</body>
+</html>

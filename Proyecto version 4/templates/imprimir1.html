@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LISTA DE VUELOS</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Vuelos Disponibles</h1>
+<td><img src="src=../../static/auxilio.png"></td>
+{%block body%}
+<table>
+{%for i in range(0,entries.numero)%}
+	<tr>
+	<td>{{ entries["vuelos"] [i] }} </td>
+	</tr>
+
+{%endfor%}
+</table>
+{% endblock %}
+</body>
+
+</html>

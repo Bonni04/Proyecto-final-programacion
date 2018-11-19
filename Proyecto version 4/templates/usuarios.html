@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="formulario">
+		<h1>Vuelos</h1>
+        <td><img src="src=../../static/auxilio.png"></td>
+		<form action="{{url_for('usuarios')}}" method="POST">
+			<br><input type="text" name="usuario" placeholder="por favor confirmar su usuario" required="">
+			<br><input type="text" name="correo" placeholder="ingrese su correo" required>
+			<br><input type="text" name="telefono" placeholder="ingrese su telefono" required>
+			
+
+			<input type="submit" name="boton" value="Buscar">
+
+	</div>
+</body>
+</html>

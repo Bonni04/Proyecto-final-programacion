@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historial</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+<h1>Historial de vuelos</h1>
+<td><img src="src=../../static/auxilio.png"></td>
+{%block body%}
+<table>
+{%for i in range(0,entries.numero)%}
+	<tr>
+	<td>{{ entries["usuarios"] [i] }} </td>
+	</tr>
+
+{%endfor%}
+</table>
+{% endblock %}
+</body>
+
+</html>

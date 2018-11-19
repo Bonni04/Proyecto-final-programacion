@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="formulario">
+		<h1>Bienvenido a tu pagina pa volar</h1>
+        <td><img src="src=../../static/auxilio.png"></td>
+		<form action="{{url_for('imprimirVuelos')}}" method="POST">
+			<input type="text" name="origen" placeholder="Ingrese ciudad de origen">
+			<br><input type="text" name="llegada" placeholder="Ingrese ciudad de destino">
+			<p> S=snack,
+				L=lunch
+				D=dinner
+				B=breakfast
+			</p>
+			<br><input type="text" name="preferencia1" placeholder="Ingrese 1 sola  preferencia">
+			<br><input type="text" name="preferencia2" placeholder="Ingrese 2 preferencias">
+			<br><input type="text" name="preferencia3" placeholder="Ingrese sus preferencias">
+			<br><input type="text" name="preferencia4" placeholder="Ingrese sus preferencias">
+
+
+			<input type="submit" name="boton" value="Sin Preferencia">
+			<input type="submit" name="boton" value="1 Preferencia">
+			<input type="submit" name="boton" value="2 Preferencias">
+			<input type="submit" name="boton"value = "Reservar vuelo">
+			<input type="submit" name="boton"value = "Mi perfil">
+	</div>
+</body>
+</html>

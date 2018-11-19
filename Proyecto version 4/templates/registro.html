@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+        <div class="formulario">
+            <td><img src="src=../../static/auxilio.png"></td>
+            <h1>Crea tu Cuenta</h1>
+            <form action="{{url_for('registrarse')}}"method="POST">
+                <br><input type="text" name="Usuario" placeholder="Usuario" required>
+                
+                <br><input type="password" name="Contraseña" placeholder="Contraseña" required>
+                
+                <br><input type="email" name="Correo" placeholder="Correo Electronico" required>
+                
+                <br><input type="text" name="Telefono" placeholder="Teléfono" required>
+                
+                <input type="submit" value="Registrarse">
+
+            </form>
+        </div>
+
+</body>
+</body>
+</html>
